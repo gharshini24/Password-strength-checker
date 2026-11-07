@@ -1,6 +1,6 @@
 body {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
-  background: #410128;
+  font-family: Tahoma, sans-serif; ;
+  background: #38012c;
   color: #c88fb9; /*for the password box*/
   display: flex; /*wireframe*/
   justify-content: center;/*rows allign*/
@@ -8,7 +8,7 @@ body {
 }
 
 .card {
-  background: #78043a;
+  background: #220714;
   padding: 2rem; /*different from margin it creates space inside a box*/
   border-radius: 12px;
   width: 100%;
