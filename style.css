@@ -1,0 +1,41 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.card {
+  background: #1e293b;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.note { color: #94a3b8; font-size: 0.9rem; }
+
+input {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.bar {
+  height: 10px;
+  background: #334155;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+#bar-fill {
+  height: 100%;
+  width: 0%;
+  border-radius: 5px;
+  background: #ef4444;
+}
