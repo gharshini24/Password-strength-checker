@@ -1,41 +1,43 @@
 body {
-  font-family: system-ui, sans-serif;
-  background: #0f172a;
-  color: #e2e8f0;
-  display: flex;
-  justify-content: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+  background: #860755;
+  color: #c88fb9; /*for the password box*/
+  display: flex; /*wireframe*/
+  justify-content: center;/*rows allign*/
   padding: 3rem 1rem;
 }
 
 .card {
-  background: #1e293b;
-  padding: 2rem;
+  background: #3e0217;
+  padding: 2rem; /*different from margin it creates space inside a box*/
   border-radius: 12px;
   width: 100%;
   max-width: 420px;
 }
 
-.note { color: #94a3b8; font-size: 0.9rem; }
+.note { color: #d394bb; font-size: 0.9rem; }
 
 input {
   width: 100%;
   padding: 0.7rem;
   font-size: 1rem;
   border-radius: 8px;
+  border-color: #e0b9d2;
   border: none;
   box-sizing: border-box;
 }
 
 .bar {
   height: 10px;
-  background: #334155;
+  background: #a8719a;
   border-radius: 5px;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 #bar-fill {
   height: 100%;
   width: 0%;
-  border-radius: 5px;
-  background: #ef4444;
+  border-radius: 5px;/*same as bar*/
+  background: #279056;
 }
